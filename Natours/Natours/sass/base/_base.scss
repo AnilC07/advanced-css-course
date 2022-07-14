@@ -1,0 +1,20 @@
+/* On definit une font pour le root (par defaut 16px). Ici on veut du 10px pour nous rendre la vie plus facile. si 100% = 16px alors 10px = 62.5% */
+
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+  
+  
+  /* CSS GENERAL A LA PAGE */
+  
+  body {
+    box-sizing: border-box;
+  }

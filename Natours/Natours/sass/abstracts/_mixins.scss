@@ -1,0 +1,9 @@
+// Ajouter un element apres l'element qui effacera ensuite ces element flottaants
+
+@mixin clearfix {
+    &::after{
+        content:"";
+        display: table;
+        clear: both;;
+    }
+}
